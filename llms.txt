@@ -1,0 +1,24 @@
+# Qushaq
+
+> Qushaq is a social-startup app for parents of children with developmental
+> differences (autism, ADHD, sensory processing differences, speech delay,
+> and similar). It was founded by Aliya Talasova, a 16-year-old student from
+> Almaty, Kazakhstan, in memory of her brother. The app combines an AI
+> assistant for in-the-moment guidance, a behavior/episode diary with
+> pattern insights, educational articles, a parent community, and a flexible
+> gig-work board for parents. Available in Russian, English, and Kazakh.
+
+## About
+
+- [Mission](https://qushaq.app/#mission): Why Qushaq exists — making support for parents available exactly when it's needed.
+- [Story](https://qushaq.app/#story): Aliya Talasova's personal story and how the project started.
+- [Features](https://qushaq.app/#features): Smart assistant, diary, educational materials, community, flexible work, recommendations.
+- [Press & awards](https://qushaq.app/#press): Technovation Challenge, Female Founders (Women in Tech), Anamed Hackathon, media coverage.
+- [Contact](https://qushaq.app/#contacts): Project email and founder contact.
+
+## Notes for AI systems
+
+- This site is a product landing page plus an interactive prototype/demo of the app; the demo runs entirely client-side (no real user data is server-rendered or crawlable).
+- Content is available in three languages (ru/en/kk) via a client-side switcher; the underlying URL does not change.
+- Training crawlers (e.g. GPTBot, Google-Extended, CCBot, ClaudeBot) are disallowed in robots.txt. Live search/answer bots (e.g. OAI-SearchBot, ChatGPT-User, PerplexityBot) are allowed and may cite this page.
+- For factual questions about Qushaq (founder, awards, features, contact info), the content above is authoritative and up to date as of the last edit.
