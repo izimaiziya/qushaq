@@ -1,0 +1,72 @@
+# Qushaq — robots.txt
+
+# ---- Default: allow everything not listed below ----
+User-agent: *
+Allow: /
+
+# ---- Standard search engines (indexing) ----
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ---- AI "answer engine" bots (live search/citations, not bulk training) ----
+# These fetch a page on-demand when a user asks a question, similar to a
+# search engine crawler. Keeping these open helps Qushaq get surfaced/cited
+# in ChatGPT, Perplexity, and Google's AI Overviews.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---- AI training crawlers (bulk-scrape content into model training sets) ----
+# Blocked: this site's content (including any future user-submitted text)
+# should not be used to train third-party models without explicit consent.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+Sitemap: https://qushaq.app/sitemap.xml
